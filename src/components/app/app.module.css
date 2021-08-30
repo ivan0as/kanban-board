@@ -1,0 +1,8 @@
+.app {
+    background: white;
+}
+
+.container{
+    max-width: 1235px;
+    margin: 0 auto;
+}
