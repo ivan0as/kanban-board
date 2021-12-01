@@ -1,0 +1,92 @@
+.form_change {
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+.task_select {
+    border: none;
+    outline:none;
+    height: 35px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    background: #FFFFFF url(./Arrow.svg) no-repeat;
+    background-position: center;
+    background-position-x: 220px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.task_select:active {
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.option_group {
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 3px;
+    position: absolute;
+    width: 258px;
+    overflow: auto;
+    max-height: 150px;
+}
+
+.option_group::-webkit-scrollbar {
+    background-color: #EBECF0;
+    width: 12px;
+    border-radius: 5px;
+}
+
+.option_group::-webkit-scrollbar-thumb {
+    background-color: #CBCBCB;
+    border-radius: 5px;
+}
+
+.option_group::-webkit-scrollbar-track-piece:start {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.option_group::-webkit-scrollbar-track-piece:end {
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.button_option {
+    border: none;
+    background: #FFFFFF;
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: start;
+    padding: 8px 9px;
+    cursor: pointer;
+}
+
+.button_option:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button_option:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button_option:hover {
+    background: #DEDEDE;
+}

@@ -6,6 +6,7 @@
 .header_content{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .h1{
@@ -37,4 +38,27 @@
 .vector{
     margin-bottom: 14px;
     margin-left: 6px;
+}
+
+.vector_active {
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 338px) {
+
+    .header {
+        background-color: #0079BF;
+    }
+
+    .header_content{
+        justify-content: end;
+    }
+
+    .h1 {
+        display: none;
+    }
+
+    .user_menu {
+        margin-top: 11px;
+    }
 }

@@ -1,0 +1,12 @@
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+@media screen and (max-width: 338px) {
+	.board {
+		flex-direction: column;
+		margin-top: 108px;
+	}
+}

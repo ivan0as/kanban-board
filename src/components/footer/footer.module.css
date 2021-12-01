@@ -33,3 +33,9 @@
 .footer_content p:last-child {
     margin: 17px 19px 17px 0;
 }
+
+@media screen and (max-width: 338px) {
+    .footer {
+        display: none;
+    }
+}

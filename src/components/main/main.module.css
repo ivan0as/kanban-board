@@ -1,26 +1,11 @@
 .main {
-    height: 590px;
     background-color: #0079BF;
+    flex-grow: 1;
 }
 
 .main_content {
     display: flex;
     justify-content: space-between;
-}
-
-.block_task {
-    background-color: #EBECF0;
-    width: 282px;
-    border-radius: 10px;
-    margin: 20px 24px 32px 0;
-}
-
-.block_task:first-child {
-    margin-left: 19px;
-}
-
-.block_task:last-child {
-    margin-right: 16px;
 }
 
 .title_task {
@@ -30,31 +15,4 @@
     font-size: 18px;
     line-height: 21px;
     margin: 12px 0 12px 15px;
-}
-
-.button_add_card {
-    border: none;
-    outline: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    color: #5E6C84;
-    font-size: 18px;
-    line-height: 21px;
-    margin: 12px 0 7px 11px;
-    padding: 4px 7px;
-}
-
-.button_add_card:hover {
-    cursor: pointer;
-    background: #FFFFFF;
-    border-radius: 5px;
-}
-
-.button_add_card_disabled {
-    cursor: default;
-}
-
-.button_add_card img {
-    margin-right: 4px;
 }
