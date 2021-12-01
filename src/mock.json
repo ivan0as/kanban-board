@@ -28,13 +28,6 @@
 			"status": "ready"
 	},
 	{
-			"id": "89",
-			"title": "Серега+Андрей",
-			"description": "Оу май",
-			"created": "2021-09-27T11:13:57.611Z",
-			"status": "ready"
-	},
-	{
 			"id": "15694889400239302",
 			"title": "Update API routes",
 			"description": "Update API routes to use the newest versions",
